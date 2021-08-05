@@ -1,4 +1,5 @@
-export const Gallery = (props) => {
+import ProjectCard from '../components/ProjectCard';
+export const Project = (props) => {
   return (
     <div id='portfolio' className='text-center'>
       <div className='container'>
@@ -8,6 +9,7 @@ export const Gallery = (props) => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>
+          <ProjectCard />
         </div>
              </div>
     </div>
