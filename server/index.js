@@ -9,7 +9,7 @@ const db=mysql.createPool({
     user: "root",
     host: "localhost",
     password: "kartikdb@309",
-    database: "testingdb",
+    database: "newdb",
 });
 //in nodejs in express if you want to create a request or api end point write app
 //to grab something from frontend use req
@@ -17,15 +17,14 @@ const db=mysql.createPool({
 app.post('/',(req,res)=>{
 
     //send these data to database
-//   const name=req.body.name
-//   const email=req.body.email
-//   const job=req.body.job
+  const id=1
+  const name="ABC"
   
   //inserting into databse and initially putting values ?key: "id"
   //after , write callback
   db.query(
-      `INSERT INTO user('id', 'username',' useremail') VALUES (1,"ABC","abc@gmail.com")`,
-      [name, email, job],(err,result)=>{
+      `INSERT INTO testtable ('id', 'name') VALUES (?,?)`,
+      [id, name],(err,result)=>{
           if(err){
               console.log(err)
           }else{
@@ -35,12 +34,12 @@ app.post('/',(req,res)=>{
       );
 });
 app.get('/',(req,res)=>{
-    db.query("select * FROM user",(err,result)=>{
+    db.query("INSERT INTO testtable (id, name) VALUES (1,'ABC')",(err,result)=>{
         if(err){
             console.log(err)
         }
         else{
-            res.send(result);
+            res.send("sever is running");
         }
     })
 })

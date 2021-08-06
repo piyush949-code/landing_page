@@ -16,7 +16,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const App = () => {
+const Anotherapp = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -39,4 +39,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Anotherapp;
