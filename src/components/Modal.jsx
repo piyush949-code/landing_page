@@ -7,9 +7,9 @@ function Modal({showModal,setShowModal}) {
     return (
         <>
          {showModal ?    
-        <Container  fluid style={{position:"fixed",top:"0%", left:"0%",width:"100%",height:"100vh",display:"flex",background:"#9993",justifyContent:"center",alignItems:"center"}} >
-           <Row  style={{backgroundColor:"#fff", width:"35vh",height:"60vh",justifyContent:"center",alignItems:"center",padding:"0% 1%"}}>
-               <Button  onClick={()=>{setShowModal(prev=>!prev)}} style={{width:"2.5vh",height:"5vw",borderRadius:"5px"}}>X</Button>
+        <Container  fluid style={{zIndex:2,position:"fixed",top:"0%", left:"0%",width:"100% ",height:"100vh",display:"flex",background:"#9993",justifyContent:"center",alignItems:"center"}} >
+           <Row  style={{position:"relative",backgroundColor:"#fff", width:"36vh",height:"40vh",justifyContent:"center",alignItems:"center",padding:"0% 1%"}}>
+               <Button  onClick={()=>{setShowModal(prev=>!prev)}} style={{width:"2.5vh",height:"2.5vh",borderRadius:"5px"}}>X</Button>
                 <Form style={{height:"30vh"}}>
                 <Form.Group className="mb-8" controlId="formBasicName">
                     <Form.Label style={{color:"#242424",fontSize:"2vh"}}>Name</Form.Label>
