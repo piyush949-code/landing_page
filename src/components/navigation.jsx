@@ -73,13 +73,13 @@ const openModal=()=>{
             About
               </a>
             </li>
-            <li className="nav-line">
-              <a href='#services' className='page-scroll'>
+            <li>
+              <a href='#Syllabous' className='page-scroll'>
             Syllabous
               </a>
             </li>
-            <li className="nav-line">
-              <a href='#features' className='page-scroll'>
+            <li>
+              <a href='#Instructor' className='page-scroll'>
              Instructors
               </a>
             </li>

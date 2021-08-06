@@ -272,10 +272,11 @@ header .intro-text {
 
 
 /* Features Section */
-#features {
+/* instructor section */
+#Instructor {
   background: #f6f6f6;
 }
-#features i.fa {
+#Instructor i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -287,9 +288,94 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
+/* profile card styling */
+.card-container {
+	background-color: white;
+	min-width: 250px;
+	max-width: 400px;
+	height: 450px;
+	border-radius: 14px;
+	box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-bottom: 80px;
+  
+}
+
+header {
+	background-image: url("../images/bg-pattern-card.svg");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+
+img {
+	margin: auto;
+	width: 100px;
+	border: solid white 4px;
+	border-radius: 50%;
+	margin-top: 75px;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 10px 20px 0px 20px;
+}
+
+.normal-text {
+	font-weight: normal;
+	font-size: 0.95rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+	font-weight: normal;
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	line-height: 5px;
+}
+
+.social-container {
+	display: flex;
+	border-top: solid rgb(206, 206, 206) 1px;
+	text-align: center;
+}
+
+.followers {
+	flex: 1;
+}
+
+.likes {
+	flex: 1;
+}
+
+.photos {
+	flex: 1;
+}
+
 /* About Section */
 #about {
   padding: 100px 0;
+}
+#about .specialisation{
+  border: 0.5px solid grey;
+  width: 80%;
+  font-size: 20px;
+  margin-left:20px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
 #about h3 {
   font-size: 22px;
@@ -319,7 +405,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  
   font-weight: 300;
   padding-right: 8px;
 }
@@ -335,18 +421,42 @@ header .intro-text {
   margin: 30px 0;
 }
 /* Services Section */
-#services {
+/* syllabous section */
+#collapse .header{
+  cursor: pointer;
+  border: solid 1px blue;
+  padding: 15px;
+  background-color: white;
+  color:black;
+  font-family: verdana;
+  }
+  .content{
+  cursor: pointer;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  border-radius: 0 0 5px 5px;
+  padding: 15px;
+  font-family: verdana;
+  font-size: 14px;
+  color:black;
+ 
+  }
+  /* syllabous section stylinge  */
+  
+#Syllabous {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
-#services .service-desc {
+#Syllabous .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+
+#Syllabous h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#Syllabous .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -356,7 +466,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#Syllabous i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -366,15 +476,15 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#Syllabous h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#Syllabous p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+#Syllabous .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
