@@ -62,6 +62,7 @@ a:focus {
 ul,
 ol {
   list-style: none;
+  
 }
 ul,
 ol {
@@ -88,6 +89,10 @@ hr {
   height: 70px;
   width: 300px;
   margin-top: -20px;
+
+}
+.top-option{
+  font-size: 2rem;
 
 }
 #menu.navbar-default {
