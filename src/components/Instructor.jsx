@@ -7,7 +7,8 @@ export const Instructor = (props) => {
           <h2>Instructor</h2>
         </div>
         <div className='row'>
-        <ProfileCard
+      <div className="co-md-6">
+      <ProfileCard
 				name="Rita Correia"
 				age="32"
 				city="London"
@@ -15,6 +16,7 @@ export const Instructor = (props) => {
 				likes="803K"
 				photos="1.4K"
 			></ProfileCard>
+</div>
 
 
 

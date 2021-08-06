@@ -224,7 +224,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/data-science-background.jpg) center center no-repeat;
+  background: url(../img/datascience.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -271,6 +271,9 @@ header .intro-text {
 #Instructor {
   background: #f6f6f6;
 }
+#Instructor h2{
+  margin-top:100px;
+}
 #Instructor i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -293,7 +296,7 @@ header .intro-text {
 	border-radius: 14px;
 	box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
   margin-top: 200px;
-  margin-left: 300px;
+  margin-left: 380px;
   margin-bottom: 80px;
   
 }
@@ -421,6 +424,7 @@ img {
   cursor: pointer;
   border: solid 1px blue;
   padding: 15px;
+  width: 50%;
   background-color: white;
   color:black;
   font-family: verdana;
@@ -435,7 +439,7 @@ img {
   font-family: verdana;
   font-size: 14px;
   color:black;
- 
+ width: 50%;
   }
   /* syllabous section stylinge  */
   
@@ -443,6 +447,7 @@ img {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
+  
 }
 #Syllabous .service-desc {
   margin: 10px 10px 20px;

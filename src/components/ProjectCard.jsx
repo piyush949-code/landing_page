@@ -20,7 +20,7 @@ export default function FullWidthGrid() {
   const classes = useStyles();
   
   return (
-    <div style={{ width: '90%', backgroundColor: 'blue', 
+    <div style={{ width: '90%', backgroundColor: 'white', 
                   padding: '10px' }}>
       <Grid container spacing={3}>
         <Grid item xs={12}>
@@ -28,32 +28,65 @@ export default function FullWidthGrid() {
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>
-          <h1>Tensor</h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam excepturi dignissimos repudiandae voluptas voluptates maiores deleniti quibusdam, non exercitationem hic similique perferendis nam laborum dolores quidem dolorem delectus blanditiis.
+           <h4>Tensor Project</h4>
+           <h5>House/Objects Price Prediction</h5>
+           <p></p>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>
-          <h1>Tensor</h1>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit quia voluptatum sed sunt neque veniam aut, omnis maiores qui possimus, ipsam quis inventore sint ipsum, aliquid nihil iste eum.
+           <h4>Tensor Project</h4>
+           <h5>Beverage/Wine Quality prediction</h5>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>
-          <h1>Tensor</h1>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi obcaecati quam, reprehenderit aspernatur neque vitae quisquam cumque deserunt eius. Iure culpa ex officia reprehenderit sequi, officiis adipisci quo similique numquam.
+           <h4>Tensor Project</h4>
+         <h5>Churn/ Attrition Prediction</h5>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={classes.paper}>
-            <h1>Tensor</h1>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero autem nisi corrupti culpa eos repellat rerum molestias nostrum sed illum pariatur accusantium, odio et veniam deserunt vitae nesciunt, ipsum deleniti?
+             <h4>Tensor Project</h4>
+             <h5>Air jet passenger satisfaction</h5>
+          </Paper>
+        </Grid>
+</Grid>
 
+{/* second row  */}
+
+<Grid container spacing={3}>
+        <Grid item xs={12}>
+         
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+           <h4>Tensor Project</h4>
+           <h5>House/Objects Price Prediction</h5>
+           <p></p>
           </Paper>
         </Grid>
-        
-        
-      </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+           <h4>Tensor Project</h4>
+           <h5>Beverage/Wine Quality prediction</h5>
+          </Paper>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+           <h4>Tensor Project</h4>
+         <h5>Churn/ Attrition Prediction</h5>
+          </Paper>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+             <h4>Tensor Project</h4>
+             <h5>Air jet passenger satisfaction</h5>
+          </Paper>
+        </Grid>
+</Grid>
+
+
     </div>
   );
 }

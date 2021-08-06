@@ -6,39 +6,29 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
               <div className=" specialisation">
-              6 Unique Specializations to choose from <br />
-- Data Science Generalist <br />
-- Deep Learning <br />
-- Natural Learning Processing <br />
-- Business Intelligence/ Data Analytics <br />
-- Business Analytics <br />
-- Data Engineering <br />
-
-
+              <h3>Key highlights</h3> <br />
+              1 Future Proof your career by learning different tools. <br />
+              2 Enhancement of theoretical knowledge. <br />
+              3 Revamp your business through a digital transformation. <br />
+              4 Building an efficient workforce. <br />
+              5 Grab exciting job opportunities in emerging fields. <br />
+              6 Aids to recognize market opportunity and take better decisions. <br />
               </div> 
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2> About Program </h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Key highlights</h3>
+            
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
+                   
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
+                   
                   </ul>
                 </div>
               </div>

@@ -1,22 +1,11 @@
 {
   "Header": {
-    "title": "Master of Science in Data Science",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Introduction to Data Science",
+    "paragraph": "Enhance your skills in Data Science to grow yourself, be knowledgeable and efficient enough to get recognised in any industry."
   },
   "About": {
-    "paragraph": "",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "Tensor is a strong advanced digital platform. It is an initiative by Lejhro to provide advanced educational facilities for the upcoming generation, professionals and entrepreneurs who will be entering the corporate world. We have provided our support to various types of small and medium enterprises to upgrade their employees through training in different technological courses such as Full Stack Development, Data Sciences, Product Engineering and many other different courses with the help of the best industry experts."
+   
   },
   "Collapse": [
     {

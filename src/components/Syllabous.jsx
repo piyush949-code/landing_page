@@ -5,21 +5,82 @@ export const Syllabous = (props) => {
     <div id='Syllabous' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Syllabous</h2>
+          <h2>Syllabus</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>
-          <Collapse title="Datascience">
+          {/* 01 */}
+          <Collapse title="Introduction to AI/ML/Data Science">
           <div> <p>Content of Collapsible</p>
           <hr />
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.</p>
-          
-          </div>
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
         </Collapse>
+   
+   {/* 02 */}
+
+        <Collapse title="Python Basics">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+
+{/* 03 */}
+
+<Collapse title="Supervised/Unsupervised ML">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+{/* 04 */}
+<Collapse title="Decision Tree Classification">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+{/* 05 */}
+<Collapse title="Random Forest Classification">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+{/* 06 */}
+<Collapse title="Linear Regression">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+{/* 07 */}
+
+<Collapse title="Stochastic Gradient Descent">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+{/* 08 */}
+
+<Collapse title="Random Forest Regression">
+          <div> <p>Content of Collapsible</p>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </Collapse>
+
         </div>
      <div>
 
