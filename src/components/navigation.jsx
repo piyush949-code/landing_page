@@ -31,7 +31,7 @@ const openModal=()=>{
              <img src={Tensor_logo} alt="" /> 
           </a>{' '}
         </div>
-        <Row style={{width:"70%"}}>
+        <Row style={{width:"100%"}}>
           <Col >
           <a  style={{fontSize:"1.9vh",fontWeight:"600",textDecoration:"none",padding:"0% 1%"}}href='#about' className='page-scroll' className="top-option">
             About

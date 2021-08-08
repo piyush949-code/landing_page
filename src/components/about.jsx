@@ -5,17 +5,17 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-              <div className=" specialisation">
+            <div className=" specialisation">
               6 Unique Specializations to choose from <br />
-- Data Science Generalist <br />
-- Deep Learning <br />
-- Natural Learning Processing <br />
-- Business Intelligence/ Data Analytics <br />
-- Business Analytics <br />
-- Data Engineering <br />
+              - Data Science Generalist <br />
+              - Deep Learning <br />
+              - Natural Learning Processing <br />
+              - Business Intelligence/ Data Analytics <br />
+              - Business Analytics <br />
+              - Data Engineering <br />
 
 
-              </div> 
+            </div>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -27,8 +27,8 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
@@ -36,8 +36,8 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
+                        <li key={`${d}-${i}`}> {d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
