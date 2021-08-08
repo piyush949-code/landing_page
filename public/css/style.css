@@ -86,10 +86,17 @@ hr {
 .navbar-header img{
   margin-left: -100px;
   height: 70px;
-  width: 300px;
+  width: inherit;
+  border-radius: inherit;
   margin-top: -20px;
 
 }
+.page-scroll .apply_button{
+font-size: 1.5rem;
+
+}
+/*responsive css*/
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -224,7 +231,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/datascience.png) center center no-repeat;
+  background: url(../img/data_science.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -261,18 +268,27 @@ header .intro-text {
   text-align: center;
 }
 
-
-
-
-
-
 /* Features Section */
 /* instructor section */
 #Instructor {
   background: #f6f6f6;
 }
+#Instructor .row{
+  display: flex;
+  flex-direction: row;
+
+}
+@media only screen and (max-width: 600px) {
+  #Instructor .row{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  
+  }
+}
 #Instructor h2{
-  margin-top:100px;
+text-align: center;
+margin-top: 100px;
 }
 #Instructor i.fa {
   font-size: 38px;
@@ -292,13 +308,13 @@ header .intro-text {
 	background-color: white;
 	min-width: 250px;
 	max-width: 400px;
-	height: 450px;
+	height: 300px;
 	border-radius: 14px;
 	box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
-  margin-top: 200px;
-  margin-left: 380px;
+  margin-top: 10px;
+  margin-left: 300px;
   margin-bottom: 80px;
-  
+ 
 }
 
 header {
@@ -370,14 +386,22 @@ img {
 #about .specialisation{
   border: 0.5px solid grey;
   width: 80%;
-  font-size: 20px;
-  margin-left:20px;
-  padding: 20px;
+  height: max-content;
+  
   box-shadow: 10px 10px 5px grey;
+  align-items: justify;
+
 }
-#about h3 {
+#about .specialisation h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#about .specialisation p{
+  font-size: 15px;
+  margin-left:20px;
+
 }
 #about h2 {
   position: relative;
@@ -393,11 +417,11 @@ img {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
+#about .about-text p {
   margin-bottom: 6px;
   margin-left: 6px;
-  list-style: none;
-  padding: 0;
+ 
+  font-size: 15px;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -424,10 +448,10 @@ img {
   cursor: pointer;
   border: solid 1px blue;
   padding: 15px;
-  width: 50%;
-  background-color: white;
+  background-color: #ffffff;
   color:black;
   font-family: verdana;
+  width: 50%;
   }
   .content{
   cursor: pointer;
@@ -439,7 +463,8 @@ img {
   font-family: verdana;
   font-size: 14px;
   color:black;
- width: 50%;
+  width: 50%;
+ 
   }
   /* syllabous section stylinge  */
   
@@ -447,45 +472,52 @@ img {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
-  
 }
+
 #Syllabous .service-desc {
   margin: 10px 10px 20px;
 }
+#Syllabous .download_button{
+font-size: 1.5rem;
 
+
+}
 #Syllabous h2 {
   color: #fff;
 }
 #Syllabous .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  color: white;
   height: 4px;
   width: 60px;
   bottom: 0;
   margin-left: -30px;
   left: 50%;
+  
 }
-#Syllabous i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 #Syllabous h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
 #Syllabous p {
-  color: rgba(255, 255, 255, 0.75);
+  color: white;
 }
 #Syllabous .service-desc {
   margin-bottom: 40px;
+}
+
+/* Project card */
+.project_card{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .project_card{
+    display: flex;
+    flex-direction: row;
+  } 
 }
 /* Portfolio Section */
 #portfolio {
@@ -595,130 +627,43 @@ img {
   color: #888;
 }
 /* Contact Section */
-#contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+.contact {
+   width: 100%;
+    display: flex;
+    flex-direction: column; 
+    padding: 1.3em 2.2em;
+     height: max-content;
+     align-items: "center";
+     gap:18px ;
+     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+     color: white;
 }
-#contact .section-title {
-  margin-bottom: 40px;
+.contact .inner_contact{
+   display: flex; 
+   flex-Direction: row; 
+   justify-content: space-evenly;
+   width: 50%; 
 }
-#contact .section-title p {
-  font-size: 16px;
+.contact .btn{
+  margin-top: 30px;
 }
-#contact h2 {
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+.contact form{
+position: relative;
+left: 600px;
+top: 50px;
+
 }
-#contact .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  left: 30px;
+.contact iframe{
+position: relative;
+top: 60px;  
+left: 640px;
 }
-#contact h3 {
-  color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
-  font-weight: 400;
+.contact .about_us{
+  text-align: justify;
+  margin-top: -190px;
 }
-#contact form {
-  padding-top: 20px;
-}
-#contact .text-danger {
-  color: #cc0033;
-  text-align: left;
-}
-#contact .btn-custom {
-  margin: 30px 0;
-  background: transparent;
-  border: 2px solid #fff;
-}
-#contact .btn-custom:hover {
-  color: #1f386e;
-  background: #fff;
-}
-label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  float: left;
-}
-#contact .form-control {
-  display: block;
-  width: 100%;
-  padding: 6px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-#contact .form-control:focus {
-  border-color: #999;
-  outline: 0;
-  -webkit-box-shadow: transparent;
-  box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-  color: #777;
-}
-.form-control:-moz-placeholder {
-  color: #777;
-}
-.form-control::-moz-placeholder {
-  color: #777;
-}
-.form-control:-ms-input-placeholder {
-  color: #777;
-}
-#contact .contact-item {
-  margin: 20px 0;
-}
-#contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
-  display: block;
-}
-#contact .contact-item i.fa {
-  margin-right: 10px;
-}
-#contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
-  text-align: center;
-}
-#contact .social ul li {
-  display: inline-block;
-  margin: 0 20px;
-}
-#contact .social i.fa {
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
-  padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
-  border-radius: 50%;
-  transition: all 0.3s;
-}
-#contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+.contact .about_us h3 {
+  color: white;
 }
 /* Footer Section*/
 #footer {
@@ -740,4 +685,121 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+@media (max-width:426px) {
+  .card-container{
+    background-color: white;
+    /* min-width: 100%; */
+    max-width: 100%;
+    height: 450px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 10px hsl(185deg 75% 35%);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.navbar-header img{
+  margin-left: -15px;
+  height: 70px;
+  width: 224px;
+  margin-top: -21px;
+}
+header .intro-text {
+  padding-top: 285px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.header_title{
+  color: white;
+  font-weight: 500;
+  margin-left: 0px;
+}
+.intro p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-left: -10px;
+  margin-bottom: 50px;
+}
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+#about {
+  padding: 50px 0;
+  width: 100% !important;
+}
+.container{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#about .specialisation{
+  border: 0.5px solid grey;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.05);
+}
+#Syllabous {
+  padding: 40px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
+.section-title {
+  margin-bottom: 0px;
+}
+.section-title h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 12px;
+}
+.card-container {
+  background-color: white;
+  /* min-width: 100%; */
+  max-width: 100%;
+  height: 285px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 10px hsl(185deg 75% 35%);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+#portfolio {
+  padding: 70px 0;
+  width: 100% !important;
+}
+#testimonials {
+  padding: 30px 0;
+  background: #f6f6f6;
+  width: 100% !important;
+}
+#contact {
+  padding: 0px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: rgba(255, 255, 255, 0.75);
+  width: 100% !important;
+}
+.col-xs-12 {
+  width: 90% !important;
+  margin: auto;
+}
+#about h2{
+  text-transform: uppercase !important;
+  margin: 25px 0 20px !important;
+  font-weight: 800 !important;
+  font-size: 25px !important;
+  color: #333 !important;
+  position: relative !important;
+  margin-bottom: 15px !important;
+  padding-bottom: 15px !important;
+}
+#footer {
+  background: #f6f6f6;
+  padding: 30px 0;
+  width: 100% !important;
+}
 }

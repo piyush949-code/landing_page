@@ -4,8 +4,12 @@
     "paragraph": "Enhance your skills in Data Science to grow yourself, be knowledgeable and efficient enough to get recognised in any industry."
   },
   "About": {
-    "paragraph": "Tensor is a strong advanced digital platform. It is an initiative by Lejhro to provide advanced educational facilities for the upcoming generation, professionals and entrepreneurs who will be entering the corporate world. We have provided our support to various types of small and medium enterprises to upgrade their employees through training in different technological courses such as Full Stack Development, Data Sciences, Product Engineering and many other different courses with the help of the best industry experts."
-   
+    "paragraph": "1.Learn from industry professionals having more than 15 years of industry experience.    ",
+    "paragraph1": "2.Learn in a hybrid model-live-interactive and experiential learning .",
+    "paragraph2": "3. Gain hands-on experience from day 1 by working on some amazing capstone projects.    ",
+    "paragraph3": "4. Small batches to focus on personalized learning.",
+    "paragraph4": "5.Get a certificate after completion of the course." 
+
   },
   "Collapse": [
     {
@@ -17,45 +21,38 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/img_avatar2.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Akanksha Avinash"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/img_avatar2.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Hasmit Singla"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/img_avatar2.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+
+      "name": "Meena BM"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/img_avatar2.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Rupali Bhatta"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/img_avatar1.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Anshuman Mishra"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/img_avatar2.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Tejaswini Somware"
     }
   ],
- 
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
+  
   "Instructor": [
    
     {

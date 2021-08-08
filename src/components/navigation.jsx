@@ -1,5 +1,6 @@
 import React from "react";
 import Tensor_logo from '../components/Tensor_logo.png';
+import Button from '@material-ui/core/Button';
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -34,7 +35,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#Syllabous' className='page-scroll'>
-            Syllabous
+            Syllabus
               </a>
             </li>
             <li>
@@ -43,7 +44,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='#ProjectCard' className='page-scroll'>
                 Projects
               </a>
             </li>
@@ -61,7 +62,9 @@ export const Navigation = (props) => {
 
             <li>
               <a href='#team' className='page-scroll'>
-              <button>Apply Now</button>
+              <Button variant="contained" color="primary" className="apply_button">
+ APPly Now
+</Button>
               </a>
             </li>
           </ul>

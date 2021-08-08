@@ -6,32 +6,27 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
               <div className=" specialisation">
-              <h3>Key highlights</h3> <br />
-              1 Future Proof your career by learning different tools. <br />
-              2 Enhancement of theoretical knowledge. <br />
-              3 Revamp your business through a digital transformation. <br />
-              4 Building an efficient workforce. <br />
-              5 Grab exciting job opportunities in emerging fields. <br />
-              6 Aids to recognize market opportunity and take better decisions. <br />
+              <h3>ABOUT OUR PROGRAM</h3> 
+<p>1. 20 hours course structure.</p> 
+
+<p>2. Career essential soft skills program. </p>
+
+  <p>3. 3 unique specializations.</p>  
+
+<p>4. 60+ case studies and capstone projects. </p>
+
+<p>5. Career counselling and access to job  opportunities. </p>
               </div> 
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2> About Program </h2>
+              <h3> Why Choose Us ?</h3>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-            
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                   
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                   
-                  </ul>
-                </div>
-              </div>
+              <p>{props.data ? props.data.paragraph1 : "loading..."}</p>
+              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              <p>{props.data ? props.data.paragraph3: "loading..."}</p>
+              <p>{props.data ? props.data.paragraph4 : "loading..."}</p>
+              
             </div>
           </div>
         </div>
