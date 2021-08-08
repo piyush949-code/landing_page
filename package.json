@@ -6,11 +6,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^5.0.2",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.0.0-beta.4",
     "react-collapsible": "^2.8.3",
     "react-dom": "^17.0.1",
+<<<<<<< HEAD
     "react-ga": "^3.3.0",
+=======
+>>>>>>> f471d867d47a94a874b035079efe99696d923a68
     "react-icons": "^4.2.0",
     "react-scripts": "^4.0.2",
     "smooth-scroll": "^16.1.3"
