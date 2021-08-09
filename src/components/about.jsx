@@ -1,3 +1,4 @@
+import { TiTick} from "react-icons/ti";
 export const About = (props) => {
   return (
     <div id="about">
@@ -6,42 +7,26 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <div className=" specialisation">
-              6 Unique Specializations to choose from <br />
-              - Data Science Generalist <br />
-              - Deep Learning <br />
-              - Natural Learning Processing <br />
-              - Business Intelligence/ Data Analytics <br />
-              - Business Analytics <br />
-              - Data Engineering <br />
+              <h2>ABOUT PROGRAM</h2>
+              <p><span><TiTick></TiTick></span>20 hours course structure.</p>
 
+              <p><span><TiTick></TiTick></span>Career essential soft skills program.</p>
 
+              <p><span><TiTick></TiTick></span>3 unique specializations.</p>
+
+              <p><span><TiTick></TiTick></span>60+ case studies and capstone projects.</p>
+
+              <p><span><TiTick></TiTick></span>Career counselling and access to job opportunities.</p>
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2> About Program </h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Key highlights</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                        <li key={`${d}-${i}`}>{d}</li>
-                      ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                        <li key={`${d}-${i}`}> {d}</li>
-                      ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
+              <h2> WHY CHOOSE US ?</h2>
+              <p className="my-3"><span><TiTick></TiTick></span>{props.data ? props.data.paragraph : "loading..."}</p>
+              <p className="my-3"><span><TiTick></TiTick></span>{props.data ? props.data.paragraph1 : "loading..."}</p>
+              <p className="my-3"><span><TiTick></TiTick></span>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              <p className="my-3"><span><TiTick></TiTick></span>{props.data ? props.data.paragraph3 : "loading..."}</p>
+              <p className="my-3"><span><TiTick></TiTick></span>{props.data ? props.data.paragraph4 : "loading..."}</p>
             </div>
           </div>
         </div>

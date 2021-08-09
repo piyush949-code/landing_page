@@ -4,10 +4,15 @@ export default function contact() {
   return (
     <>
       <div className="contact-card-parent-container">
-        <div className="contact-about-container">
-          <p>Lejhro was founded in 2013 with a mission to empower the next generation of innovators by providing the opportunities. As a global technology company, we connect dynamic networks of people, data & ideas - accurately delivering business with quality and commitments.
-            Lejhro Tensor is an exclusive line of business of Lejhro Technology carefully designed to align students with agile industry requirements and enhance their employability.</p>
-        </div>
+        <h4 style={{
+          alignSelf: "flex-start",
+          marginLeft: "72px",
+          marginBlock: "10px",
+          fontSize: "40px",
+          color: "white"
+        }} className="spotlight-heading">ABOUT US</h4>
+        <p>Lejhro was founded in 2013 with a mission to empower the next generation of innovators by providing the opportunities. As a global technology company, we connect dynamic networks of people, data & ideas - accurately delivering business with quality and commitments.
+          Lejhro Tensor is an exclusive line of business of Lejhro Technology carefully designed to align students with agile industry requirements and enhance their employability.</p>
         <div className="contact-card-video-container">
           <div className="contact-card-video-child-one">
             <iframe src="https://www.youtube.com/embed/_P8tgw7QieU">
@@ -35,9 +40,10 @@ export default function contact() {
         <hr></hr>
         <div className="contact-card-footer-container" >
           <ul>
-            <li> Address4321 California St, San Francisco, CA 12345</li>
-            <li>Phone +1 123 456 1234</li>
-            <li>Email info@company.com</li>
+
+            <li>Address: No. 757, 2nd floor, 4th Main Rd, Konena Agrahara, Bengaluru, Karnataka 560017</li>
+            <li>phone : 9937175522</li>
+            <li>Email :contact@lejhro.com</li>
           </ul>
         </div>
       </div>

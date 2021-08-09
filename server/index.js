@@ -43,6 +43,13 @@ app.post('/api/insert', (req, res) => {
         console.log(result);
     })
 })
+app.post('/api/download', (req, res) => {
+    let Username = req.body.username
+    let Useremail = req.body.useremail
+    db.query(`INSERT INTO dowloadedusers (username,useremail) VALUES (?,?)`, [Username, Useremail], (error, result) => {
+        console.log(result);
+    })
+})
 app.get('/',(req,res)=>{
     db.query("SELECT * FROM landingpageusers",(err,result)=>{
         if(err){

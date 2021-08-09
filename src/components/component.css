@@ -15,16 +15,27 @@
   padding: 1.03em 2.2em;
   align-items: center;
   gap: 5px;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 14%);
+  margin: auto;
+}
+
+.contact-card-video-child-two {
+  flex: 0.5;
+}
+.contact-card-video-child-two > form {
+  width: 90%;
+  margin: auto;
 }
 .contact-card-parent-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1.3em 2.2em;
+  padding: 2.3em 6.2em;
   height: max-content;
   align-items: center;
+  grid-gap: 18px;
   gap: 18px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: white;
 }
 .contact-card-video-container {
   display: flex;
@@ -36,87 +47,180 @@
   flex: 0.5;
 }
 .contact-card-video-child-one > iframe {
-  width: 90%;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+}
+.contact-card-parent-container > p {
+  width: 42%;
+  margin-left: 72px;
+  text-align: justify;
+}
+.contact-card-footer-container > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+.contact-card-footer-container > ul > li {
+  padding: 0.22em 0.6em;
+}
+.Leader-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.Profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: white;
+  gap: 8px;
+  min-width: 300px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 14%);
+}
+.Profile-container > h3,
+p,
+a {
+  align-self: flex-start;
+}
+.spotlight-heading {
+  width: max-content;
+  text-align: left;
+  margin: auto;
+  margin-block: 20px;
+  font-size: 48px;
+}
+.contact-btn-container {
+  width: max-content;
+  text-align: center;
   margin: auto;
 }
-.contact-card-video-child-two {
+.contact-btn-container > button {
+  width: max-content;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 8px 14px;
+  margin-block: 15px;
+}
+.Syllabous-card-container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 1.2em 1.8em;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+.accordion-container {
   flex: 0.5;
 }
-.contact-card-video-child-two > form {
+.contact-about-container {
+  width: 60%;
+  text-align: center;
+}
+.collapse-main-container {
+  display: flex;
   width: 90%;
   margin: auto;
+  flex-direction: row;
 }
-.contact-card-footer-container>ul{
-    list-style:none;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    gap:8px
+.collapse-container {
+  flex: 0.5;
+  width: 100%;
 }
-.contact-card-footer-container>ul>li{
-    padding:0.22em 0.6em;
+.project-card-child > img {
+  border-radius: none !important;
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
 }
-.Leader-main-container{
-    display: flex;
-    flex-direction: row;
-    width: 85%;
-    margin: auto;
-    align-items: center;
-    gap: 10px;
-    justify-content: space-evenly;
-  }
-  .Profile-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 7px;
-    background-color: white;
-    gap: 8px;
-    min-width: 300px;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 14%);
-  }
-  .Profile-container>h3,p,a{
-    align-self: flex-start;
-  }
-  .spotlight-heading {
-    width: max-content;
-    text-align: left;
-    margin: auto;
-    margin-block: 20px;
-    font-size: 48px;
-  }
-  .contact-btn-container{
-    width: max-content;
-    text-align: center;
-    margin: auto;
-  }
-  .contact-btn-container >button{
-    width: max-content;
-    background-color: black;
-    color: white;
-    border: none;
-    outline: none;
-    display: inline-block;
-    padding: 8px 14px;
-    margin-block: 15px; 
-  }
-  .Syllabous-card-container{
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding: 1.2em 1.8em;
-    justify-content: space-evenly;
-    gap: 8px;
-  }
-  .accordion-container{
-    flex: 0.5;
-  }
-  .contact-about-container{
-    width: 60%;
-    text-align: center;
-  }
+.Syllabus-main-parent-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3.3em 2.1em;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+.Accordion-parent-container {
+  flex: 0.5;
+  height: 400px;
+}
+.sc-bdnxrm {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  background: white;
+}
+.button-parent-container {
+  flex: 0.5 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gqcnNw {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  position: relative !important;
+  height: 900% !important;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+}
+.iCeSlF {
+  /* position: absolute; */
+  /* top: -12%; */
+  box-shadow: 2px 6px 5px 1px rgb(153 153 153 / 30%) !important;
+  width: 85% !important;
+  height: MAX-CONTENT !important;
+}
+.hDnPAf {
+  background: lightblue !important;
+  color: rgb(122, 107, 107) !important;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  height: max-content !important;
+}
+/*CONTACT SECTION*/
 @media screen and (max-width: 427px) {
   .project-card-parent-container {
     display: flex;
@@ -132,10 +236,12 @@
     display: flex;
     flex-direction: column;
     height: max-content;
-    padding: 0.7em 1.3em;
+    padding: 0.03em 2.2em;
     align-items: center;
+    grid-gap: 5px;
     gap: 5px;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 14%);
+    margin: auto;
+    max-height: 390px;
   }
   .contact-card-video-container {
     display: flex;
@@ -147,7 +253,7 @@
     width: 100%;
     margin: auto;
   }
-  .Leader-main-container{
+  .Leader-main-container {
     display: flex;
     flex-direction: column;
     width: 85%;
@@ -156,7 +262,7 @@
     align-items: center;
     gap: 10px;
   }
-  .contact-btn-container >button{
+  .contact-btn-container > button {
     width: 95%;
     background-color: black;
     color: white;
@@ -165,9 +271,8 @@
     display: inline-block;
     padding: 5px 9px;
     margin-block: 15px;
-    
   }
-  .contact-btn-container{
+  .contact-btn-container {
     width: 90%;
     text-align: center;
   }
@@ -178,7 +283,7 @@
     margin-block: 20px;
     font-size: 28px;
   }
-  .Syllabous-card-container{
+  .Syllabous-card-container {
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -187,7 +292,7 @@
     justify-content: space-evenly;
     gap: 8px;
   }
-  .contact-about-container{
+  .contact-about-container {
     width: 100%;
     text-align: center;
   }

@@ -1,10 +1,14 @@
 {
   "Header": {
-    "title": "INTRODUCTION TO DATA SCIENCE",
+    "title": "Introduction to Data Science",
     "paragraph": "Enhance your skills in Data Science to grow yourself, be knowledgeable and efficient enough to get recognised in any industry."
   },
   "About": {
-    "paragraph": "",
+    "paragraph": "Learn from industry professionals having more than 15 years of industry experience.    ",
+    "paragraph1": "Learn in a hybrid model-live-interactive and experiential learning .",
+    "paragraph2": " Gain hands-on experience from day 1 by working on some amazing capstone projects.    ",
+    "paragraph3": " Small batches to focus on personalized learning.",
+    "paragraph4": "Get a certificate after completion of the course.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,55 +24,43 @@
   },
   "Collapse": [
     {
-    "title": "datascience",
-    "children": "lorem"
-
-
+      "title": "datascience",
+      "children": "lorem"
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/girl.jpg",
+      "text": "I feel very happy that I completed my Data Science course from here. Today I have a lot of knowledge in Data Analysis, Machine Learning and Visualization with Python. ",
+      "name": "Akanksha Avinash"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/girl.jpg",
+      "text": " I am really glad that I decided to go out of my comfort zone. Today I am very conversant with the Scikit-learn Machine Learning framework after completing the Data Science course.",
+      "name": "Hasmit Singla"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/girl.jpg",
+      "text": "Provided a pragmatic approach to Machine Learning projects. It is the best course for Data Scientist aspirants. The interesting and industry-relevant projects and the challenges will help the aspirants to gain a lot of knowledge.",
+      "name": "Meena BM"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/girl.jpg",
+      "text": "The course is very comprehensive, I learnt about the basics to know in Flux, Redux, Thunk, etc, including Java ( as part of backend programming) AND Microservices. I would like to recommend this course to all.",
+      "name": "Rupali Bhatta"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/boy.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Anshuman Mishra"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/girl.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Tejaswini Somware"
     }
   ],
- 
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
   "Instructor": [
-   
     {
       "icon": "",
       "title": "Lorem ipsum",
